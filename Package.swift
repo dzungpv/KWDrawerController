@@ -23,7 +23,7 @@ let package = Package(
         .target(
             name: "KWDrawerController",
             dependencies: ["RxSwift",
-                           .product(name: "RxCocoa", package: "RxSwift")]),
+                           .product(name: "RxCocoa", package: "RxSwift")],
             path: "DrawerController"),
     ]
 )
